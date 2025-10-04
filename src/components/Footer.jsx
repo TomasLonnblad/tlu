@@ -24,7 +24,7 @@ export default function Footer() {
                 <text className="text-[6px] uppercase" style={{fill: "red"}}>
                     {
                         [...Array(3)].map((_, i) => {
-                            return <textPath key={i} ref={ref => paths.current[i] = ref} startOffset={i * 40 + "%"} href="#curve">Curabitur mattis efficitur velit</textPath>
+                            return <textPath key={i} ref={ref => paths.current[i] = ref} startOffset={i * 40 + "%"} href="#curve">Tomas Lönnblad Modular Model System</textPath>
                         })
                     }
                 </text>
